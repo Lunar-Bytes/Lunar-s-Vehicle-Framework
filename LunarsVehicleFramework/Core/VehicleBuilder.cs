@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using LunarsVehicleFramework.Integration;
 
 namespace LunarsVehicleFramework.Core
 {
@@ -117,6 +118,16 @@ namespace LunarsVehicleFramework.Core
             };
 
             VehicleRegistry.Register(vehicle);
+            
+            // Handle MVB recipe registration
+            foreach (var recipe in _recipes)
+            {
+                if (recipe.FabricatorId == "MobileVehicleBay")
+                {
+                    MVBIntegration.Initialize();
+                    MVBIntegration.RegisterMVBRecipe(_vehicleId, _vehicleName, _mvbTabName, recipe.Ingredients);
+                }
+            }
             
             if (_enableLogging)
             {

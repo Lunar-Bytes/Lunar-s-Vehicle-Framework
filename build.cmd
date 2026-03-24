@@ -106,5 +106,6 @@ if /i "!choice!"=="y" (
     echo Operation cancelled.
 )
 
+echo ==========================================================
 endlocal
 exit /b 0

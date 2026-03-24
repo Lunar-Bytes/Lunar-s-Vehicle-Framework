@@ -5,7 +5,7 @@
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>LunarsVehicleFramework</AssemblyName>
     <RootNamespace>LunarsVehicleFramework</RootNamespace>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <Authors>Lunar</Authors>
     <Description>A C# library for easily adding new vehicles, fabricators, and items to Subnautica</Description>
     <LangVersion>latest</LangVersion>

@@ -4,7 +4,7 @@ using BepInEx.Logging;
 
 namespace LunarsVehicleFramework
 {
-        [BepInPlugin("com.lunar.vehicleframework", "Lunar's Vehicle Framework", "1.2.0")]
+        [BepInPlugin("com.lunar.vehicleframework", "Lunar's Vehicle Framework", "1.2.1")]
     [BepInDependency("com.bepinex.bepinexpack")]
     public class LunarsVehicleFrameworkPlugin : BaseUnityPlugin
     {

@@ -2,7 +2,7 @@
 
 A powerful C# library for Subnautica that makes it incredibly easy to add new vehicles, fabricators, and items to the game.
 
-**Current Version: 1.2.0**
+**Current Version: 1.2.1**
 
 ## Features
 
@@ -28,6 +28,11 @@ Output: `LunarsVehicleFramework\bin\Release\LunarsVehicleFramework.dll` OR:
 Output: `L:\SteamLibrary\steamapps\common\Subnautica\BepInEx\Plugins\LunarsVehicleFramework\LunarsVehicleFramework.dll`
 
 ## Changelog
+
+### v1.2.1
+- **Fixed:** Mobile Vehicle Bay tab creation and recipe registration
+- **Fixed:** Proper integration with Subnautica's crafting system
+- **Improved:** Better logging for MVB recipe registration
 
 ### v1.2.0
 - **New:** Mobile Vehicle Bay custom tabs via `WithMVBTab()`
