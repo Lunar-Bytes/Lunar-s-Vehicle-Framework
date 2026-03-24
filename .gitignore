@@ -1,0 +1,38 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# IDEs
+.vs/
+.vscode/
+*.csproj.user
+*.sln.user
+*.suo
+*.code-workspace
+
+# Dependencies
+packages/
+.nuget/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# NuGet
+.nuget/NuGet.exe
+.nuget/packages/
+
+# Local environment
+local.env
+
+# Test mod
+test-mod/
+
